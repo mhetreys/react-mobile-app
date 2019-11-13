@@ -1,0 +1,465 @@
+[33mcommit 46b98b77f82083649c5ecab3d68bdaebfcb961c3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jun 7 20:37:42 2019 +0530
+
+    Add image information object instead of image key
+
+[33mcommit 5fb1f80f95058d81e975900edf860565680c73c1[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jun 7 19:29:58 2019 +0530
+
+    Pull to refresh activity list
+
+[33mcommit 09a56f7206dd66401a97a8a8faf16f47437e403a[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jun 7 18:50:27 2019 +0530
+
+    Explicitly set button color to transparent
+
+[33mcommit 7336cd3edc3938a87ea21a8eb1986725a6f6c5d6[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jun 7 17:37:22 2019 +0530
+
+    Optimize assets
+
+[33mcommit c70cc5e957ac54c6ca6e9d976cbac1752655691e[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jun 7 14:34:53 2019 +0530
+
+    Filter global suppliers list by shortlisted suppliers
+
+[33mcommit f6eb70774b9350196828296c32b477fb93f8ce25[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jun 7 13:55:54 2019 +0530
+
+    Reindent global suppliers list
+
+[33mcommit 69f4681e5c60446b4bbe36c7319486c992577da8[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu May 16 20:25:16 2019 +0530
+
+    Change campaigns GET endpoint
+
+[33mcommit ed33e68ff33f13e00ce8cd0f90d5e9df3a99aac7[m
+Author: console42 <console42@wikasta.com>
+Date:   Wed May 15 18:54:29 2019 +0530
+
+    Show campaign load fail error
+
+[33mcommit f7d4771061d265d43162730042fe724afd8ae797[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue May 14 08:11:03 2019 +0530
+
+    add leads link
+
+[33mcommit 09bb4605edbd4fe85e0b4602fb47aee439ba80f3[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon May 13 15:58:11 2019 +0530
+
+    Show leads edit button even if no existing data is available
+
+[33mcommit 0e7ec5ffe141de981c9ea4d485cc6e4e38f13c9c[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon May 13 14:35:03 2019 +0530
+
+    Filter campaigns list to show only assigned campaigns
+
+[33mcommit 7b714aad6d0e7120b8d415bbec9df4752692063a[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon May 13 11:17:49 2019 +0530
+
+    Reindent campaigns component
+
+[33mcommit f9fd801198b5f1d214254570ceb23396d3ed1d19[m
+Author: console42 <console42@wikasta.com>
+Date:   Wed Mar 6 17:12:48 2019 +0530
+
+    Add android & ios build scripts
+
+[33mcommit 2eb8570d646e8b3d6914c2b6f281b85a56b00ec6[m
+Author: console42 <console42@wikasta.com>
+Date:   Wed Mar 6 16:24:18 2019 +0530
+
+    Redirect to Splash on login success
+
+[33mcommit a3f877f217f9163e1cd822afdc93ed5135a8fa20[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 22:54:01 2019 +0530
+
+    Update activity list on supplier change
+
+[33mcommit 626b1e8c7a9b8643e4ec96cd7c3e1c51c9674617[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 20:51:54 2019 +0530
+
+    Update API URL to prod
+
+[33mcommit 56f167f02e8937c79e111d23b41bc3c37c6788b3[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 20:30:28 2019 +0530
+
+    Call login methods even if selected campaign / supploers are not available
+
+[33mcommit 768d20347dda7ec00d55b013a87bb0f1325ddc44[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 20:25:36 2019 +0530
+
+    Remove saved username/password from login
+
+[33mcommit d9c1fc2519c619c1afe960e955a0fc3b0a5b9ed7[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 20:09:36 2019 +0530
+
+    Move selected campaign & supplier checks on splash
+
+[33mcommit a1b4ab52e0983dadc4bea95fab6b9ccb17018da4[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 16:45:33 2019 +0530
+
+    Do not fetch suppliers list on component mount
+
+[33mcommit b0a375e8a703eb911d3cf809b5fe8f54a14326ea[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 16:44:51 2019 +0530
+
+    Save captured activity image in reducer
+
+[33mcommit 8f5e349b500d8ec92b76f815cb6260c1aa44ae0c[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 15:30:04 2019 +0530
+
+    Prompt campaign / supplier selection on app load
+    
+    Load campaign list only 1 on app load.
+    Populate user info in sidebar from login reducer.
+    Prevent incorrect campaign / supplier list prompts.
+
+[33mcommit f7a90e2916c943cfdbcd37b0c56387077d022a17[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 15:14:08 2019 +0530
+
+    blank state of campaign list
+
+[33mcommit fe6b9060c65f8843a2c8e932ba5f132a4795566b[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Mar 5 14:03:46 2019 +0530
+
+    remove hard coded data fro api
+
+[33mcommit 603395a21e9bb40954e76f678ed4838c72aa375b[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu Feb 28 17:54:09 2019 +0530
+
+    Fix hashtag API URL and remove useless logs
+
+[33mcommit 72aca93d74f4c9023f309fa4c0fc8fd5425450b4[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu Feb 28 15:47:29 2019 +0530
+
+    Add related_to=execution in supplier comments
+
+[33mcommit 862b87f77f5edb17e924d4a64028980e5293ed17[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu Feb 28 15:02:33 2019 +0530
+
+    Show toast on login failure & set logging in button state
+
+[33mcommit 7a3f7d2f3c4ef0f3a4a40c837fad0e7e59eaf712[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu Feb 28 14:23:47 2019 +0530
+
+    Create user profile, add icons for blank states, hashtag capture
+
+[33mcommit 977b19fae700a21caaed1e86acd157f583a57f12[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu Feb 28 08:52:21 2019 +0530
+
+    Populate images in gallery & post comments
+
+[33mcommit bc391177c1e0553d95d083be431a20b9565ce0f5[m
+Author: console42 <console42@wikasta.com>
+Date:   Wed Feb 27 22:37:45 2019 +0530
+
+    Upload activity images and complete capture flow
+
+[33mcommit 125d23296d0568b17bbf2095bea3779993510519[m
+Author: console42 <console42@wikasta.com>
+Date:   Wed Feb 27 19:02:11 2019 +0530
+
+    Create image preview modal
+
+[33mcommit 32273c524ab32fff9fe3ffdbc42c53224feb706d[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Feb 26 15:17:08 2019 +0530
+
+    Capture image exif & location and pass to parent
+
+[33mcommit b11acd5ebd95b27eb2930de90e429d03f8aae353[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon Feb 25 17:35:16 2019 +0530
+
+    Implement logout
+
+[33mcommit d6fd7ce858d8a55515343eb8bc201567ca90b9bc[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon Feb 25 14:32:05 2019 +0530
+
+    Reduce overall card font-sizes; Remove option to view supplier activity
+
+[33mcommit c0fe99f5d1c0d3a41e64ae7935a5705c23f8dcf8[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu Feb 21 13:43:14 2019 +0530
+
+    Fetch supplier activities in its component or from navigation params
+    
+    Prompt campaign / supplier selection if any of them is not selected.
+    Reset selected supplier when selected campaign is re-selected.
+    Populate activities list using globally selected supplier.
+    Fetch all suppliers & activities on Splash screen.
+    Allow user to view activities of an individual supplier.
+
+[33mcommit ca2d6a304d076ecc22681c337f6a9ddb8c875d9a[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Feb 19 15:15:48 2019 +0530
+
+    Cache selected campaign & supplier
+
+[33mcommit 035206bf824f5443a4113c5de8bff4c7b269a1d7[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Feb 19 09:49:37 2019 +0530
+
+    Fix Auto Login
+
+[33mcommit e069d091101ba81e9ee05de6ae3b102aaf0d37ba[m
+Author: console42 <console42@wikasta.com>
+Date:   Sat Feb 16 00:48:17 2019 +0530
+
+    Create screen to show latest lead count and form to update lead count
+
+[33mcommit a332ea24ec52485ce083bb1f5342af8ff69e38b9[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Feb 15 14:57:46 2019 +0530
+
+    Create leads card list
+
+[33mcommit f395bcf3c61bf113bd2c8836d067a5808fcccc72[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu Feb 14 01:44:42 2019 +0530
+
+    global campaign and supplier list
+
+[33mcommit 1fad9af05ad33a57071b74d99375a0ef1620a35c[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon Feb 11 18:42:47 2019 +0530
+
+    Post comment API call and add comment to reducer
+
+[33mcommit 820d19716937127b1e1a62c54d6c41a0966611db[m
+Merge: bb135cd 3185f94
+Author: console42 <console42@wikasta.com>
+Date:   Mon Feb 11 15:41:25 2019 +0530
+
+    Merge branch 'master' of github.com-console42:console42/audit-mobile
+
+[33mcommit bb135cd8de31b7a55cdf647e4d37d925a8ee6d8a[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon Feb 11 15:41:13 2019 +0530
+
+    Change comment add layout from bottom textarea to FAB
+
+[33mcommit 3185f940ca983ff39561b73a2706bd33f724a5e2[m
+Author: console42 <console42@wikasta.com>
+Date:   Sun Feb 10 17:53:32 2019 +0530
+
+    Prefetch images in photo grid
+
+[33mcommit e1cc54c0c094a31306dbbd2d37684fc32e03b1e6[m
+Merge: 2ef966d 4fecb24
+Author: console42 <console42@wikasta.com>
+Date:   Sun Feb 10 15:00:00 2019 +0530
+
+    Merge branch 'master' of github.com-console42:console42/audit-mobile
+
+[33mcommit 2ef966daaa81fb55338643ba536d8a0f14958fa5[m
+Author: console42 <console42@wikasta.com>
+Date:   Sun Feb 10 14:59:33 2019 +0530
+
+    Create image grid
+
+[33mcommit 4fecb2483accd1f16424b1cfdc934ce92963d9c2[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu Feb 7 16:44:20 2019 +0530
+
+    drawer styling
+
+[33mcommit d9076d0bfac2c2f2cb7d079f890e829a670a7da0[m
+Merge: e111f71 b50a01a
+Author: console42 <console42@wikasta.com>
+Date:   Wed Feb 6 22:45:23 2019 +0530
+
+    Merge branch 'master' of github.com-console42:console42/audit-mobile
+
+[33mcommit e111f71b923802afe999cb8dbebbfca83c59838c[m
+Author: console42 <console42@wikasta.com>
+Date:   Wed Feb 6 22:45:08 2019 +0530
+
+    create comment page
+
+[33mcommit b50a01ac88eb61d6720b94ab577a83d6a16b01dc[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 29 11:49:47 2019 +0530
+
+    Change suppliers data key
+
+[33mcommit e2c318d1efb9e2251e9f8d9fb322037bdbbe537f[m
+Author: console42 <console42@wikasta.com>
+Date:   Wed Jan 23 04:10:25 2019 +0530
+
+    map linking supplier location
+
+[33mcommit cb1b0e1dfae3b9d73887e92d95a992e6d8be3509[m
+Author: console42 <console42@wikasta.com>
+Date:   Wed Jan 23 03:53:15 2019 +0530
+
+    add call feature
+    add activity list
+
+[33mcommit 6f53ef82c7e9e8723ec5b594a61c0d2fc06f75df[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 22 09:28:59 2019 +0530
+
+    Style compatibility for iOS
+
+[33mcommit d0824a932fd77ea6b128834c1d0b7ca1453822c1[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 22 05:18:08 2019 +0530
+
+    create supplier list
+
+[33mcommit 1e489850440badbb34ac4fe04571a4838a34c408[m
+Merge: e95d487 3aae885
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 22 00:44:12 2019 +0530
+
+    Merge branch 'master' of github.com-console42:console42/audit-mobile
+
+[33mcommit e95d487617fbc0f6c94ccc2a41f98defe4dc9a26[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 22 00:39:47 2019 +0530
+
+    create supplier card
+
+[33mcommit 3aae88510a0826714f3aa6495eeb9272ab250bba[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 22 00:36:18 2019 +0530
+
+    Allow all device orientations & update splash screen
+
+[33mcommit bb97d3177d7eb536c41ad2285b047ce8aae6626e[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 22 00:22:21 2019 +0530
+
+    Rename myStore to mdStore
+
+[33mcommit 8e1086c23e5a6de0c9c5ef569adab0c0116fa03c[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 22 00:17:39 2019 +0530
+
+    Create navigation drawer
+
+[33mcommit 575a5317537a79f87a39d1fc809147816a55bef3[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon Jan 21 23:38:51 2019 +0530
+
+    Incerase spacing between logo and login form
+
+[33mcommit a2de116d0bfec910b60e75ad0affbfca379331b3[m
+Author: console42 <console42@wikasta.com>
+Date:   Sat Jan 19 04:05:07 2019 +0530
+
+    Fetch token from storage to identify logged in session
+
+[33mcommit 568ea223c3f1c73df66c3188cbd37cb892f5ac30[m
+Merge: ac8b589 e374a84
+Author: console42 <console42@wikasta.com>
+Date:   Sat Jan 19 03:42:48 2019 +0530
+
+    Merge branch 'master' of github.com-console42:console42/audit-mobile
+
+[33mcommit ac8b58907f1ef38fab587c3855e25f6a0015f198[m
+Author: console42 <console42@wikasta.com>
+Date:   Sat Jan 19 03:42:42 2019 +0530
+
+    Fetch activity list data & save auth token
+
+[33mcommit e374a84c788d78e35dde42f35b6544ae9c00d922[m
+Author: console42 <console42@wikasta.com>
+Date:   Sat Jan 19 03:32:33 2019 +0530
+
+    Create a Switch Navigator to prevent going back to auth screens
+
+[33mcommit beb1ff8cfaf762f4e6adf11acbd3ad3b0bb42a64[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jan 18 02:17:11 2019 +0530
+
+    image capture feature
+
+[33mcommit 94a4098922717833cc22076430cf1c8ac07b0e3c[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jan 18 00:04:00 2019 +0530
+
+    Improve activity card layout and start camera
+
+[33mcommit db74a899e30aa827c3a5127ace40cebbdfddecf1[m
+Author: console42 <console42@wikasta.com>
+Date:   Thu Jan 17 17:13:01 2019 +0530
+
+    fix some css issue
+
+[33mcommit fa342379f045f6a409975ba59a966b2b6655a4ce[m
+Author: console42 <console42@wikasta.com>
+Date:   Wed Jan 16 03:08:46 2019 +0530
+
+    Create activity card & enable navigation
+
+[33mcommit dbe857cebe3f91a9fa3357a908a81afe49f08c50[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 15 23:48:13 2019 +0530
+
+    Start activity feature
+
+[33mcommit 1a963d6379b347cf5a8a73d6fadc1c1ef0232d26[m
+Author: console42 <console42@wikasta.com>
+Date:   Tue Jan 15 00:30:52 2019 +0530
+
+    Make login API call and save response
+
+[33mcommit 1a1cdbee615e7edad4785d6ed713d0b673200fcf[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon Jan 14 16:56:44 2019 +0530
+
+    Apply custom theme
+
+[33mcommit eb7f54f31389d360643722207987c426cae47b0d[m
+Author: console42 <console42@wikasta.com>
+Date:   Mon Jan 14 13:01:27 2019 +0530
+
+    Create login skeleton
+
+[33mcommit 6ef185cd73c3ad1fd3ce34a93fe58998336e148c[m
+Author: console42 <console42@wikasta.com>
+Date:   Sat Jan 12 01:30:13 2019 +0530
+
+    Create app structure
+
+[33mcommit 3fd0736863b1e2c89da56ea1d3169d316bd3570b[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jan 11 22:01:08 2019 +0530
+
+    Add redux and other dependencies
+
+[33mcommit dc8d045bee6e9658591aad75d2d98599451d046f[m
+Author: console42 <console42@wikasta.com>
+Date:   Fri Jan 11 17:54:07 2019 +0530
+
+    First commit
